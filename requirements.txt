@@ -1,0 +1,29 @@
+# Core dependencies for T-Mobile Sentiment Analyzer
+# Python 3.11+ compatible (including 3.13)
+
+# Reddit API
+praw==7.7.1
+
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# NLP and ML
+transformers==4.46.0
+torch>=2.6.0
+scikit-learn>=1.5.2
+
+# Text-to-speech
+gTTS==2.5.0
+
+# Audio processing
+pydub==0.25.1
+
+# Data visualization - use latest versions compatible with Python 3.13
+matplotlib>=3.9.2
+seaborn>=0.13.2
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Utilities
+python-dateutil>=2.9.0
